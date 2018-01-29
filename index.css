@@ -1,40 +1,41 @@
 .heading {
-font-size: 45px;
-text-align: center;
-font-family: Helvetica;
-font-weight: bold;
-color: khaki;
-background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  color: khaki;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  margin: auto;
+  }
 
-margin: auto;
-}
-.brushes {
+.items {
   font-size: 18px;
-  font-family: Helvetica;
-  font-weight: Bold;
+  font-weight: bold;
   color: white;
+  }
+
+#brushes {
   background-color: mediumspringgreen;
+
 }
 .starting{
   color: blue;
-  font-family: Helvetica;
   font-weight: bold;
   font-size-adjust: auto;
 }
-.frames {
-  font-size: 18px;
-  font-family: Helvetica;
-  font-weight: Bold;
-  color: white;
+
+#frames {
   background-color: lightcoral;
   }
 
-  .paint {
-    font-size: 18px;
-    font-family: Helvetica;
-    font-weight: Bold;
-    color: white;
+#paint {
     background-color: skyblue;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+  font-family: "Helvetica", sans-serif;
   }
 
   p {
